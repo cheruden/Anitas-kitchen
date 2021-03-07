@@ -2,7 +2,7 @@
 ## Author
 DENNIS CHERUIYOT
 ## Description
-Its a website that expalins more about Anitas kitchen 
+Its a website that explains more about Anita's kitchen 
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
@@ -21,7 +21,7 @@ To access this project on your local files, you can clone it using these steps
 ### Live Site
 View [live](https://cheruden.github.io/My-favourite-band/)
 ### Licence
-This project is under the  [MIT](LICENSE) licence
+This project is under the  [MIT](LICENSE) license
 License format:
 MIT License
 Copyright (c) 2021 (Dennis cheruiyot)
