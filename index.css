@@ -1,6 +1,6 @@
 nav#head{
     background-image: url("./images/assets/backgrounds/landing.jpg");
-    padding: 0;
+    padding: 0px;
     width: 800px;
     height: 500px;
     margin-left: auto;
@@ -11,10 +11,11 @@ nav#head{
 div.break,.lunch,.dinner{
     height: 120px;
     width: 150px;
-    margin: 10px;
+    margin: 0px;
     text-align: center;
     flex: 1;
     flex-wrap: nowrap;
+    text-decoration-color: white;
 }
 main{
     display: flex;
@@ -23,6 +24,13 @@ main{
 }
 .happy{
     background-color: white;
+    margin-left: 0;
+    height: 60px;
+}
+.party{
+    height: 60px;
+    margin-left: 0;
+
 }
 .break{
     background-image: url("./images/assets/foodtop/breakfast.jpg");
@@ -34,22 +42,24 @@ main{
     background-image: url("./images/assets/foodtop/lunch.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode :overlay rgba(209, 212, 212, 0.993);
+    
 }
 .dinner{
     background-image: url("./images/assets/foodtop/dinner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
+   
 }
 .one{
     flex-direction: column;
     width: 190px;
     
 }
-.happy{
+/*.happy{
     width: 200px;
     height: 65px;
-}
+}*/
 div.Fast{
     display: block;
     margin-left: auto;
@@ -83,3 +93,87 @@ img{
     margin-right: auto;
     width: 40%;
   }
+  .menu{
+      background-image: url("./images/assets/backgrounds/foodsBg.jpg");
+      padding: 30px;
+      align-content: center;
+      height: auto;
+      width: auto;
+      padding-left: 90px;
+      padding-right: 90px;
+
+  }
+  .food{
+      padding: 10px;
+      padding-right: 30px;
+      padding-left: 30px;
+      align-content: center;
+      background-color: white;
+      display: inline-flex;
+      height: fit-content;
+      width: fit-content;
+      justify-content: space-between;
+
+  }
+  .menu.food{
+      display: inline;
+  }
+  .customers{
+    align-content: center;
+    padding: 10px;
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-overflow: ellipsis;
+    text-align: center;
+    border: solid;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+  }
+  .wateja{
+      float: left;
+      border-style: solid;
+      scroll-margin-top: 20px;
+  }
+  .contact{
+      background-image: url("./images/assets/backgrounds/subscribe.jpg");
+      align-content: center;
+padding-top: 10px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-overflow: ellipsis;
+    text-align: center;
+  }
+  .onee{
+      background-color: tomato;
+      align-content: center;
+  }
+  .container{
+    width: available;
+    height: available;
+    align-content: center;
+}
+
+.leftpane{
+    width: 60%;
+    min-width: 350px;
+    height: available;
+    min-height: 400px;
+    float: left;
+    border-collapse: collapse;
+    align-content: center;
+}
+
+
+.rightpane{
+    width: available;
+    height: available;
+    position: relative;
+    border-collapse: collapse;
+}
+
