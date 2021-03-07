@@ -56,10 +56,6 @@ main{
     width: 190px;
     
 }
-/*.happy{
-    width: 200px;
-    height: 65px;
-}*/
 div.Fast{
     display: block;
     margin-left: auto;
@@ -94,13 +90,16 @@ img{
     width: 40%;
   }
   .menu{
-      background-image: url("./images/assets/backgrounds/foodsBg.jpg");
-      padding: 30px;
-      align-content: center;
-      height: auto;
-      width: auto;
-      padding-left: 90px;
-      padding-right: 90px;
+    background-image: url("./images/assets/backgrounds/foodsBg.jpg");
+    padding: 80px;
+    width: 600px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin: auto;
+
 
   }
   .food{
@@ -112,11 +111,12 @@ img{
       display: inline-flex;
       height: fit-content;
       width: fit-content;
-      justify-content: space-between;
+
 
   }
   .menu.food{
-      display: inline;
+      display: inline-flex;
+      padding: auto;
   }
   .customers{
     align-content: center;
