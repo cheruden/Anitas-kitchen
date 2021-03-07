@@ -1,0 +1,85 @@
+nav#head{
+    background-image: url("./images/assets/backgrounds/landing.jpg");
+    padding: 0;
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+div.break,.lunch,.dinner{
+    height: 120px;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    flex: 1;
+    flex-wrap: nowrap;
+}
+main{
+    display: flex;
+    justify-content: start;
+    flex-flow: wrap;
+}
+.happy{
+    background-color: white;
+}
+.break{
+    background-image: url("./images/assets/foodtop/breakfast.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+.lunch{
+    background-image: url("./images/assets/foodtop/lunch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dinner{
+    background-image: url("./images/assets/foodtop/dinner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.one{
+    flex-direction: column;
+    width: 190px;
+    
+}
+.happy{
+    width: 200px;
+    height: 65px;
+}
+div.Fast{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+img{
+    padding: 0.2em;
+    border:1px solid #021a40;;
+}
+#happy {
+    float: left;
+  }
+  #pl{
+    clear: both;
+  }
+  #pl{
+      font-size: smaller;
+  }
+  #cup{
+      float: right;
+  }
+  #p2{
+      clear: both;
+      font-size: smaller;
+  }
+  .drinks{
+      
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
